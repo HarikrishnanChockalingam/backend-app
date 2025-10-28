@@ -1,0 +1,139 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.examly.springapp:SpringBootEmp:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.security:spring-security-test:jar -> duplicate declaration of version (?) @ line 125, column 17
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.security:spring-security-test:jar -> duplicate declaration of version (?) @ line 159, column 14
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.examly.springapp:SpringBootEmp[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding SpringBootEmp 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.0.1:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mSpringBootEmp[0;1m >>>[m
+[[1;33mWARNING[m] The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:resources[m [1m(default-resources)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.0:testResources[m [1m(default-testResources)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/coder/project/workspace/springapp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.0.1:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mSpringBootEmp[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.0.1:run[m [1m(default-cli)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2025-10-12T14:38:47.587Z  INFO 26181 --- [  restartedMain] c.examly.springapp.SpringappApplication  : Starting SpringappApplication using Java 17.0.15 with PID 26181 (/home/coder/project/workspace/springapp/target/classes started by coder in /home/coder/project/workspace/springapp)
+2025-10-12T14:38:47.589Z  INFO 26181 --- [  restartedMain] c.examly.springapp.SpringappApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-12T14:38:47.618Z  INFO 26181 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-12T14:38:47.618Z  INFO 26181 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-12T14:38:48.067Z  INFO 26181 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-12T14:38:48.099Z  INFO 26181 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2025-10-12T14:38:48.482Z  INFO 26181 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-10-12T14:38:48.489Z  INFO 26181 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-12T14:38:48.489Z  INFO 26181 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2025-10-12T14:38:48.531Z  INFO 26181 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-12T14:38:48.532Z  INFO 26181 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
+2025-10-12T14:38:48.850Z  INFO 26181 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-12T14:38:48.942Z  INFO 26181 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@150dafd2
+2025-10-12T14:38:48.944Z  INFO 26181 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-12T14:38:48.973Z  INFO 26181 --- [  restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Hibernate: 
+    
+    drop table if exists skill_shares
+Hibernate: 
+    
+    create table skill_shares (
+       id bigint not null auto_increment,
+        availability varchar(255) not null,
+        category varchar(255) not null,
+        description TEXT,
+        skill_level varchar(255) not null,
+        skill_name varchar(255) not null,
+        user_email varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB
+2025-10-12T14:38:49.416Z  INFO 26181 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12T14:38:49.687Z  WARN 26181 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-12T14:38:49.919Z  INFO 26181 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18c57d1a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cb986f6, org.springframework.security.web.context.SecurityContextHolderFilter@5c77f92f, org.springframework.security.web.header.HeaderWriterFilter@6b5dd7ce, org.springframework.web.filter.CorsFilter@12d45af9, org.springframework.security.web.authentication.logout.LogoutFilter@43fde5b4, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@3e061ca4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ebe61c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e1f7dc8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fd3360a, org.springframework.security.web.session.SessionManagementFilter@5491ee52, org.springframework.security.web.access.ExceptionTranslationFilter@4e3f45cc, org.springframework.security.web.access.intercept.AuthorizationFilter@5bc5f167]
+2025-10-12T14:38:49.931Z  INFO 26181 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@bf2f111, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5621f9f7, org.springframework.security.web.context.SecurityContextHolderFilter@16cb6b79, org.springframework.security.web.header.HeaderWriterFilter@114b051b, org.springframework.web.filter.CorsFilter@6b0f33f3, org.springframework.security.web.authentication.logout.LogoutFilter@6e767f1f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53bfc57f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a9561ce, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@337b7356, org.springframework.security.web.session.SessionManagementFilter@402f2501, org.springframework.security.web.access.ExceptionTranslationFilter@3ddf0dc2, org.springframework.security.web.access.intercept.AuthorizationFilter@72655935]
+2025-10-12T14:38:50.124Z  INFO 26181 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-12T14:38:50.142Z  INFO 26181 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-10-12T14:38:50.150Z  INFO 26181 --- [  restartedMain] c.examly.springapp.SpringappApplication  : Started SpringappApplication in 2.773 seconds (process running for 2.994)
+2025-10-12T14:39:01.307Z  INFO 26181 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-12T14:39:01.307Z  INFO 26181 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-12T14:39:01.308Z  INFO 26181 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-12T14:45:41.774Z  INFO 26181 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-12T14:45:41.777Z  INFO 26181 --- [       Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-12T14:45:41.778Z  INFO 26181 --- [       Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-10-12T14:45:41.782Z  INFO 26181 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12T14:45:41.784Z  INFO 26181 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-12T14:45:41.788Z  INFO 26181 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2025-10-12T14:45:41.842Z  INFO 26181 --- [  restartedMain] c.examly.springapp.SpringappApplication  : Starting SpringappApplication using Java 17.0.15 with PID 26181 (/home/coder/project/workspace/springapp/target/classes started by coder in /home/coder/project/workspace/springapp)
+2025-10-12T14:45:41.842Z  INFO 26181 --- [  restartedMain] c.examly.springapp.SpringappApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-12T14:45:41.953Z  INFO 26181 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-12T14:45:41.958Z  INFO 26181 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2025-10-12T14:45:42.041Z  INFO 26181 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-10-12T14:45:42.042Z  INFO 26181 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-12T14:45:42.042Z  INFO 26181 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2025-10-12T14:45:42.047Z  INFO 26181 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-12T14:45:42.047Z  INFO 26181 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 204 ms
+2025-10-12T14:45:42.091Z  INFO 26181 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-12T14:45:42.094Z  INFO 26181 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ed27e2e
+2025-10-12T14:45:42.094Z  INFO 26181 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-12T14:45:42.095Z  INFO 26181 --- [  restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Hibernate: 
+    
+    drop table if exists skill_shares
+Hibernate: 
+    
+    create table skill_shares (
+       id bigint not null auto_increment,
+        availability varchar(255) not null,
+        category varchar(255) not null,
+        description TEXT,
+        skill_level varchar(255) not null,
+        skill_name varchar(255) not null,
+        user_email varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB
+2025-10-12T14:45:42.140Z  INFO 26181 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12T14:45:42.216Z  WARN 26181 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-12T14:45:42.305Z  INFO 26181 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@898e1a3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@736d6a98, org.springframework.security.web.context.SecurityContextHolderFilter@5c20364a, org.springframework.security.web.header.HeaderWriterFilter@308fd176, org.springframework.web.filter.CorsFilter@52e85757, org.springframework.security.web.authentication.logout.LogoutFilter@1d3ef54f, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@22a33ffc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e50e999, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@209a9144, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@690fde29, org.springframework.security.web.session.SessionManagementFilter@73727f2d, org.springframework.security.web.access.ExceptionTranslationFilter@12340ed1, org.springframework.security.web.access.intercept.AuthorizationFilter@485d3f35]
+2025-10-12T14:45:42.315Z  INFO 26181 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@116727da, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b15b060, org.springframework.security.web.context.SecurityContextHolderFilter@79299165, org.springframework.security.web.header.HeaderWriterFilter@18307bf5, org.springframework.web.filter.CorsFilter@2ccd0311, org.springframework.security.web.authentication.logout.LogoutFilter@4c34d59b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3337237e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28c3093e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18941bcd, org.springframework.security.web.session.SessionManagementFilter@5410b439, org.springframework.security.web.access.ExceptionTranslationFilter@1c5ac1c7, org.springframework.security.web.access.intercept.AuthorizationFilter@762858b5]
+2025-10-12T14:45:42.396Z  INFO 26181 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-12T14:45:42.404Z  INFO 26181 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-10-12T14:45:42.407Z  INFO 26181 --- [  restartedMain] c.examly.springapp.SpringappApplication  : Started SpringappApplication in 0.579 seconds (process running for 415.251)
+2025-10-12T14:45:42.409Z  INFO 26181 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-12T14:45:45.663Z  INFO 26181 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12T14:45:45.664Z  INFO 26181 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-12T14:45:45.665Z  INFO 26181 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
